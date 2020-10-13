@@ -1,0 +1,130 @@
+html {
+    overflow-y: scroll;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: transparent;
+}
+h3 {
+    margin-bottom: 10px;
+}
+body {
+    margin: auto;
+    color: #3c484e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    text-rendering: optimizeLegibility;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+}
+
+h2 {
+    margin: 1.5em 0 .5em;
+    font-size: 2rem;
+}
+.highlight {
+    color: #036bfc;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+}
+.links {
+    display: flex;
+    font-size: 2rem;
+}
+
+.links a {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.links a:hover {
+    color: #036bfc;
+}
+
+b {
+    color: #036bfc;
+}
+
+b a {
+    color: #036bfc;
+}
+
+.cover-link-grp {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.links a {
+    color: #3c484e;
+}
+
+.cover-link-grp p {
+    margin: 0px
+}
+
+.contact {
+    margin-top: 10px;;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #036bfc;
+}
+
+.content {
+    margin: 0 10px;
+}
+@media only screen and (min-width: 768px) {
+    .site-main {
+        width: 700px;
+        margin: auto;
+        margin-top: 30px;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+    .site-main {
+        width: 400px;
+        margin: auto;
+    }
+    .cover {
+        padding-top: 10px;
+        margin: 0 10px;
+        margin-top: 20px;
+    }
+  }
+
+
+@media only screen and (max-width: 375px) {
+    .site-main {
+        width: 350px;
+        margin-top: 20px;
+    }
+    .cover {
+        padding-top: 10px;
+        margin: 0 10px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .site-main {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .cover {
+        padding-top: 10px;
+        margin: 0 10px;
+    }
+  }
